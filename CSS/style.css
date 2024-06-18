@@ -33,11 +33,12 @@ body, html{
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1000;
+    z-index: 10000;
     
 }
 #head i{
     display: none;
+    color: #ffffff;
 }
 #head img{
     width: 70px;
@@ -52,7 +53,7 @@ body, html{
 #head #menu ul li a{
     font-size: 16px;
     margin-right: 25px;
-    color: #D9E5C4;
+    color: #ffffff;
 }
 .container{
     margin-top: 90px;
@@ -75,7 +76,7 @@ body, html{
     margin-right: ;
 } */
 .container #hero h1{
-    color: #D9E5C4;
+    color: #ffffff;
     font-size: 2.7rem;
     width: 58%;
     font-weight: 700;
@@ -102,7 +103,7 @@ body, html{
     background-color: #3D6B63;
     border: 2px solid #3D6B63;
     border-radius: 8px;
-    color: #D9E5C4;
+    color: #ffffff;
 }
 
 #service{
@@ -123,29 +124,30 @@ body, html{
     justify-content: center;
 }
 #service .item{
-    text-align: center;
+    
     border: 1px solid #0c2c4342;
     border-radius: 25px;
     width: 21%;
     margin-left: 35px;
-    padding-bottom: 30px;
-    
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 #service .item img{
-    width: 60%;
+    width: 100%;
 }
 #service .item h2{
     font-size: 0.9rem;
     color: #0C2C43;
     font-weight: 800;
+    width: 100%;
 }
 
 #service .item p{
     font-size: 0.8rem;
-    width: 80%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    
+    
     color: #284F54;
 }
 
@@ -196,7 +198,8 @@ body, html{
     justify-content: center;
 }
 #client .clients{
-    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
     border: 1px solid #0c2c4342;
     border-radius: 25px;
     width: 18%;
@@ -209,9 +212,9 @@ body, html{
     width: 100px;
 }
 #client .clients p{
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+     width: 100%;
+   /* margin-left: auto;
+    margin-right: auto; */
     color: #38586C;
     font-size: 12px;
 }
@@ -291,7 +294,7 @@ body, html{
 }
 #contact .contatez form button{
     font-size: 15px;
-    color: #D9E5C4;
+    color: #ffffff;
     width: 30%;
     height: 40px;
     border-radius: 10px;
@@ -309,7 +312,7 @@ body, html{
     margin-top: 50px;
 }
 #foot p{
-    color: #D9E5C4;
+    color: #ffffff;
 }
 
 #foot .icons{
@@ -383,7 +386,7 @@ body, html{
     #head i{
         font-size: 30px;
         margin-top: 15px;
-        color: aliceblue;
+       
         display: block;
     }
     #head{
@@ -410,7 +413,7 @@ body, html{
     }
 
     .container #hero h1{
-        color: #D9E5C4;
+        
         font-size: 0.9rem;
         width: 58%;
         font-weight: 700;
@@ -424,7 +427,7 @@ body, html{
        bottom: 10px;
     }
     .container #hero p{
-        color: #D9E5C4;
+        
         font-size: 0.5rem;
         font-weight: 300;
         position: relative;
@@ -437,7 +440,7 @@ body, html{
         background-color: #3D6B63;
         border: 2px solid #3D6B63;
         border-radius: 8px;
-        color: #D9E5C4;
+        
     }
 
     #service .services{
@@ -460,7 +463,7 @@ body, html{
 
     #service h1{
         font-size: 1.8rem;
-        color: #3D6B63;
+        
         text-align: center;
         font-weight: bold;
     }
@@ -469,7 +472,7 @@ body, html{
     }
     #apropo h1{
         font-size: 1.8rem;
-        color: #3D6B63;
+        
         text-align: center;
         font-weight: bold; 
     }
@@ -505,12 +508,12 @@ body, html{
         line-height: 1.7;
         position: relative;
         bottom: 20px;
-        color: #284F54;
+        
     }
     
     #client h1{
         font-size: 1.8rem;
-        color: #3D6B63;
+        
         text-align: center;
         font-weight: bold; 
     }
@@ -533,7 +536,7 @@ body, html{
     }
     #contact h1{
         font-size: 1.8rem;
-        color: #3D6B63;
+        
         text-align: center;
         font-weight: bold; 
     }
@@ -580,7 +583,7 @@ body, html{
 
     #foot p{
         font-size: 13px;
-        color: #D9E5C4;
+        
     }
    
  } 
@@ -595,7 +598,7 @@ body, html{
     #head i{
         font-size: 30px;
         margin-top: 15px;
-        color: aliceblue;
+       
         display: block;
     }
     #head{
@@ -819,7 +822,7 @@ body, html{
         #head i{
             font-size: 30px;
             margin-top: 15px;
-            color: aliceblue;
+           
             display: block;
         }
         #head{
@@ -1074,7 +1077,7 @@ body, html{
             #head #menu ul li a{
                 font-size: 16px;
                 margin-right: 25px;
-                color: #D9E5C4;
+               
             }
             .container{
                 margin-top: 90px;
@@ -1097,7 +1100,7 @@ body, html{
                 margin-right: ;
             } */
             .container #hero h1{
-                color: #D9E5C4;
+                
                 font-size: 2.7rem;
                 width: 58%;
                 font-weight: 700;
@@ -1118,13 +1121,12 @@ body, html{
                 bottom: 40px;
             }
             .container #hero button{
-                width: 125px;
-                height: 40px;
+                
                 font-size: 0.8rem;
                 background-color: #3D6B63;
                 border: 2px solid #3D6B63;
                 border-radius: 8px;
-                color: #D9E5C4;
+                
             }
             
             #service{
@@ -1145,7 +1147,7 @@ body, html{
                 justify-content: center;
             }
             #service .item{
-                text-align: center;
+                
                 border: 1px solid #0c2c4342;
                 border-radius: 25px;
                 width: 21%;
@@ -1323,7 +1325,7 @@ body, html{
             }
             #contact .contatez form button{
                 font-size: 15px;
-                color: #D9E5C4;
+                
                 width: 30%;
                 height: 40px;
                 border-radius: 10px;
@@ -1341,7 +1343,7 @@ body, html{
                 margin-top: 50px;
             }
             #foot p{
-                color: #D9E5C4;
+                
             }
             
             #foot .icons{
