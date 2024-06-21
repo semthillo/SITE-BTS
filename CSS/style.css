@@ -458,7 +458,7 @@ body, html{
     }
     .container #hero button{
         width: 20%;
-        height: 30%;
+        height: 14%;
         font-size: 40%;
       
         border-radius: 8px;
@@ -668,7 +668,7 @@ body, html{
         background-color: #3D6B63;
         border: 2px solid #3D6B63;
         border-radius: 8px;
-        color: #D9E5C4;
+        color: #ffffff;
     }
 
     #service .services{
