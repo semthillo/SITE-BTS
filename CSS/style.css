@@ -6,9 +6,7 @@
     
 
 }
-input::placeholder{
-    padding-left: 20px;
-}
+
 li{
     list-style: none;
 }
@@ -47,13 +45,24 @@ body, html{
 }
 #head #menu ul{
     display: flex;
-    margin-right: 200px;
-    margin-top: 30px;
+    margin-right: 360px;
+    margin-top: 35px;
 }
 #head #menu ul li a{
     font-size: 16px;
     margin-right: 25px;
     color: #ffffff;
+
+}
+#head #menu ul li a:hover{
+    background-color: #3D6B63;
+    padding: 5px;
+    border-radius: 15px;
+}
+#head #menu ul li a:active{
+    background-color: #3D6B63;
+    padding: 5px;
+    border-radius: 15px;
 }
 .container{
     margin-top: 90px;
@@ -90,7 +99,7 @@ body, html{
     bottom: 32px;
 }
 .container #hero p{
-    color: #D9E5C4;
+   color: #ffffff;
     font-size: 1rem;
     font-weight: 300;
     position: relative;
@@ -137,6 +146,7 @@ body, html{
     width: 100%;
 }
 #service .item h2{
+    text-align: center;
     font-size: 0.9rem;
     color: #0C2C43;
     font-weight: 800;
@@ -213,6 +223,7 @@ body, html{
 }
 #client .clients p{
      width: 100%;
+     text-align: left;
    /* margin-left: auto;
     margin-right: auto; */
     color: #38586C;
@@ -278,7 +289,9 @@ body, html{
     display: flex;
     flex-direction: column;
 }
-
+/* #contact .contatez form input::placeholder{
+    padding-left: 20px;
+} */
 #contact .contatez form input, textarea{
     margin-bottom: 25px;
     border-radius: 5px;
@@ -341,48 +354,56 @@ body, html{
  }*/
 
  @media (max-width: 991px){
-    head #menu{
-        display: flex;
+    
+
+     #head i{
+        display: block;
+        cursor: pointer;
+        position: relative;
+        top: 15px;
+        font-size: 35px;
+     }
+     #head .menu {
+        /* display: none; */
+        height: 0px;
         position: absolute;
         top: 60px;
-        left: 40%;
-        width: 60%;
-        align-items: center;
-        justify-content: center;
-        background-color: #fff;
-        flex-direction: column;
-        z-index: 1000;
+       
+        right: 0;
+        width: 60vw;
+        background: #0C2C43;
+        transition:2s ;
+        opacity: 0.9;
         overflow: hidden;
-    }
-    #head .entete #menu{
-        max-width: 15px 0;
+     }
+     #head #menu ul{
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        transition: 0.1s;
+        opacity: 1;
+     }
+     #head #menu ul li {
+        margin-bottom: 25px;
+        color: #80A470;
+     }
+
+     #head  .menu.active{
+        height: 300px;
+     }
+
+     #client .nos p{
+        text-align: left ;
      }
  }
 
  @media (max-width:430px){
-    /* .container #hero p{
-        color: #D9E5C4;
-        font-size: 8%;
-        font-weight: 300;
-        position: relative;
-        bottom: 40px;
-    }
-    .container #hero button{
-        width: 125px;
-        height: 40px;
-        font-size: 0.8rem;
-        background-color: #3D6B63;
-        border: 2px solid #3D6B63;
-        border-radius: 8px;
-        color: #D9E5C4;
-    }*/
+  
     #head img{ 
         width: 45px;
         height: 45px;
     }
-    #head #menu {
-        display: none;
-    }
+    
     #head i{
         font-size: 30px;
         margin-top: 15px;
@@ -422,23 +443,22 @@ body, html{
         font-size: 0.9rem;
         width: 45%;
         font-weight: 700;
-        color: #3D6B63;
+        
         position: relative;
        bottom: 10px;
     }
     .container #hero p{
         
-        font-size: 0.5rem;
+        font-size: 16%;
         font-weight: 300;
         position: relative;
        top: 1px;
     }
     .container #hero button{
-        width: 80px;
+        width: 20%;
         height: 30px;
         font-size: 0.5rem;
-        background-color: #3D6B63;
-        border: 2px solid #3D6B63;
+      
         border-radius: 8px;
         
     }
@@ -451,7 +471,7 @@ body, html{
     }
 
     #service .item{
-        text-align: center;
+        
         border: 1px solid #0c2c4342;
         border-radius: 10px;
         width: 300px;
@@ -592,15 +612,8 @@ body, html{
         width: 45px;
         height: 45px;
     }
-    #head #menu {
-        display: none;
-    }
-    #head i{
-        font-size: 30px;
-        margin-top: 15px;
-       
-        display: block;
-    }
+   
+   
     #head{
         border-bottom: 5px solid #3D6B63;
         position: fixed;
@@ -626,7 +639,7 @@ body, html{
     }
 
     .container #hero h1{
-        color: #D9E5C4;
+        
         font-size: 0.9rem;
         width: 58%;
         font-weight: 700;
@@ -640,7 +653,7 @@ body, html{
        bottom: 10px;
     }
     .container #hero p{
-        color: #D9E5C4;
+        
         font-size: 0.5rem;
         font-weight: 300;
         position: relative;
@@ -664,7 +677,7 @@ body, html{
     }
 
     #service .item{
-        text-align: center;
+      
         border: 1px solid #0c2c4342;
         border-radius: 10px;
         width: 300px;
@@ -816,15 +829,7 @@ body, html{
             width: 45px;
             height: 45px;
         }
-        #head #menu {
-            display: none;
-        }
-        #head i{
-            font-size: 30px;
-            margin-top: 15px;
-           
-            display: block;
-        }
+      
         #head{
             border-bottom: 5px solid #3D6B63;
             position: fixed;
@@ -850,7 +855,7 @@ body, html{
         }
     
         .container #hero h1{
-            color: #D9E5C4;
+            
             font-size: 1.2rem;
             width: 58%;
             font-weight: 700;
@@ -864,7 +869,7 @@ body, html{
            bottom: 10px;
         }
         .container #hero p{
-            color: #D9E5C4;
+            
             font-size: 0.8rem;
             font-weight: 300;
             position: relative;
@@ -893,7 +898,7 @@ body, html{
         }
     
         #service .item{
-            text-align: center;
+           
             border: 1px solid #0c2c4342;
             border-radius: 10px;
             width: 300px;
@@ -1114,7 +1119,7 @@ body, html{
                 bottom: 32px;
             }
             .container #hero p{
-                color: #D9E5C4;
+                
                 font-size: 1rem;
                 font-weight: 300;
                 position: relative;
@@ -1162,12 +1167,13 @@ body, html{
                 font-size: 0.9rem;
                 color: #0C2C43;
                 font-weight: 800;
+                text-align: center;
             }
             
             #service .item p{
                 font-size: 0.8rem;
                 width: 80%;
-                text-align: center;
+                
                 margin-left: auto;
                 margin-right: auto;
                 color: #284F54;
