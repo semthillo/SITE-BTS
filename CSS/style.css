@@ -406,7 +406,7 @@ body, html{
     
     #head i{
         font-size: 30px;
-        margin-top: 15px;
+        
        
         display: block;
     }
@@ -435,12 +435,12 @@ body, html{
 
     .container #hero h1{
         
-        font-size: 0.9rem;
+        font-size: 60%;
         width: 58%;
         font-weight: 700;
     }
     .container #hero h1 span{
-        font-size: 0.9rem;
+        font-size: 100%;
         width: 45%;
         font-weight: 700;
         
@@ -449,15 +449,17 @@ body, html{
     }
     .container #hero p{
         
-        font-size: 16%;
+        font-size: 45%;
         font-weight: 300;
         position: relative;
-       top: 1px;
+        flex-wrap: wrap;
+        top: 0.5px;
+      
     }
     .container #hero button{
         width: 20%;
-        height: 30px;
-        font-size: 0.5rem;
+        height: 30%;
+        font-size: 40%;
       
         border-radius: 8px;
         
