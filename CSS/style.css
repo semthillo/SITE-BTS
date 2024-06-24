@@ -290,7 +290,9 @@ body, html{
     display: flex;
     flex-direction: column;
 }
-
+#contact .contatez form  textarea{
+    resize: none;
+}
 #contact .contatez form input, textarea{
     margin-bottom: 25px;
     border-radius: 5px;
@@ -459,7 +461,7 @@ body, html{
     .container #hero button{
         width: 20%;
         height: 14%;
-        font-size: 40%;
+        font-size: 2vw;
       
         border-radius: 8px;
         
